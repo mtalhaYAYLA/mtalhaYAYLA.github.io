@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Haluk Bayraktar
+  site_title: Muhammed Talha YAYLA
   site_tagline: Technology.  Aerospace.  Spirit.
   favicon_image: /images/favicon.png
 
@@ -29,11 +29,11 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/profile.php?id=531630901'
-  twitter_url: 'https://twitter.com/haluk'
-  instagram_url: 'https://www.instagram.com/haluk_bayraktar/'
+  facebook_url: ''
+  twitter_url: ''
+  instagram_url: 'https://www.instagram.com/yaylabey41/'
   snapchat_url: ''
-  youtube_url: 'https://www.youtube.com/halukbayraktar'
+  youtube_url: ''
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
@@ -54,7 +54,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'https://www.linkedin.com/in/halukbayraktar/'
+  linkedin_url: 'https://www.linkedin.com/in/muhammed-talha-yayla-3a26481a8/'
 
 color_settings:
   background_color: '#ffffff'
