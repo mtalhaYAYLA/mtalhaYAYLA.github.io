@@ -1,37 +1,35 @@
 ---
 layout: default
-title: Haluk Bayraktar.
-description: A description of Haluk Bayraktar.
+title: Muhammed Talha YAYLA
+description: Yapay Zeka Mühendisi & Yazılım Geliştirici
 featured_image: /images/haluk.jpg
 ---
 
+<section class="hero">
+  <div class="content-wrap">
+    <img src="/images/talha.jpg" alt="Muhammed Talha Yayla" style="max-width: 200px; border-radius: 50%;">
+    <h1>Merhaba, ben Muhammed Talha YAYLA</h1>
+    <p>Yapay zeka, görüntü işleme ve web teknolojileri üzerine çalışıyorum.</p>
+    <p>Projelerime göz atmak için aşağıya göz atabilirsiniz.</p>
+  </div>
+</section>
+
 <section class="portfolio">
-
-	<div class="content-wrap portfolio-wrap">
-
-		{% for project in site.projects reversed %}
-
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link" href="{{ project.url }}">
-
-				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div>
-
-			</a>
-
-		</div>
-
-		{% endfor %}
-
-	</div>
-
+  <div class="content-wrap portfolio-wrap">
+    {% for project in site.projects reversed %}
+      <div class="portfolio-item">
+        <a class="portfolio-item__link" href="{{ project.url }}">
+          <div class="portfolio-item__image">
+            <img src="{{ project.featured_image }}" alt="{{ project.title }}">
+          </div>
+          <div class="portfolio-item__content">
+            <div class="portfolio-item__info">
+              <h2 class="portfolio-item__title">{{ project.title }}</h2>
+              <p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </section>
