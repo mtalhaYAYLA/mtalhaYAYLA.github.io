@@ -240,7 +240,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p class="footer__copyright__text">
-                            Copyright &copy; <script>document.write(new Date().getFullYear());</script> Muhammed Talha Yayla. All rights reserved.
+                            Copyright &copy; <span id="year"></span> Muhammed Talha Yayla. All rights reserved.
                         </p>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
         // 5. Replace the values below:
         // ============================================================
         const EMAILJS_PUBLIC_KEY  = '5qQrmA4VnNe93rnIB';
-        const EMAILJS_SERVICE_ID  = 'service_kqz84gd';  // ✓ Gmail servisi
+        const EMAILJS_SERVICE_ID  = 'service_fqxebt5';   // ✓ Gmail servisi
         const EMAILJS_TEMPLATE_ID = '7d7bgla';           // ✓ Contact Us template
         // ============================================================
 
@@ -305,7 +305,9 @@
                 .then(function () {
                     success.style.display = 'block';
                     document.getElementById('contact-form').reset();
-                }, function () {
+                })
+                .catch(function (err) {
+                    console.error('EmailJS error:', JSON.stringify(err));
                     error.style.display = 'block';
                 })
                 .finally(function () {

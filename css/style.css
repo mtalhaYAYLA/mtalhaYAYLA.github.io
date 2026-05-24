@@ -2465,6 +2465,26 @@ ol {
     transform: translateY(-4px);
 }
 
+.github-stats-fallback {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.github-stats-fallback i {
+    font-size: 40px;
+    color: #00bfe7;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.github-stats-fallback p {
+    color: #adadad;
+    margin: 0;
+}
+
 /*---------------------
   Skills on About Page
 -----------------------*/

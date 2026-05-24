@@ -183,6 +183,12 @@
     });
 
     /*------------------
+        Copyright Year
+    --------------------*/
+    var yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    /*------------------
         Counter
     --------------------*/
     $('.counter_num').each(function () {
