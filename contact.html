@@ -301,13 +301,15 @@
                 message: document.getElementById('message').value
             };
 
-            emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+            emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams, { publicKey: EMAILJS_PUBLIC_KEY })
                 .then(function () {
                     success.style.display = 'block';
                     document.getElementById('contact-form').reset();
                 })
                 .catch(function (err) {
-                    console.error('EmailJS error:', JSON.stringify(err));
+                    console.error('EmailJS error status:', err.status);
+                    console.error('EmailJS error text:', err.text);
+                    console.error('EmailJS error full:', JSON.stringify(err));
                     error.style.display = 'block';
                 })
                 .finally(function () {
