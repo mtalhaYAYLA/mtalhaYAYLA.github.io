@@ -2767,3 +2767,36 @@ ol {
         margin-bottom: 20px;
     }
 }
+
+/* =============================================
+   Header Logo with Icon
+   ============================================= */
+.header__logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.header__logo__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: contain;
+    background: #ffffff;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.header__logo__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 991px) {
+    .header__logo__img {
+        width: 34px;
+        height: 34px;
+    }
+}
