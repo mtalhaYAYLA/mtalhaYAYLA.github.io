@@ -2001,8 +2001,29 @@ ol {
     position: relative;
   }
 
+  /* Hide nav option but show only the lang button, positioned next to hamburger */
   .header__nav__option {
+    display: block;
+    position: absolute;
+    right: 90px;
+    top: 26px;
+    padding: 0;
+  }
+  .header__nav__menu {
+    display: none !important;
+  }
+  .header__nav__social {
+    padding-left: 0;
+  }
+  .header__nav__social::before {
     display: none;
+  }
+  /* Hide email/linkedin/github icons on mobile — keep only lang button */
+  .header__nav__social a {
+    display: none;
+  }
+  .lang-btn {
+    margin-left: 0;
   }
 }
 /* Wide Mobile = 480px */
@@ -2124,7 +2145,11 @@ ol {
   }
 
   .header__nav__option {
-    display: none;
+    display: block;
+    position: absolute;
+    right: 85px;
+    top: 26px;
+    padding: 0;
   }
 
   .hero__text h2 {
@@ -2855,21 +2880,6 @@ ol {
     color: #111111;
 }
 
-/* Mobile lang button — hidden on desktop, shown on mobile */
-.lang-btn--mobile {
-    display: none;
-    position: absolute;
-    right: 60px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 100;
-}
-@media only screen and (max-width: 992px) {
-    .lang-btn--mobile { display: inline-block; }
-}
-@media only screen and (max-width: 767px) {
-    .lang-btn--mobile { right: 55px; }
-}
 
 /*---------------------
   Hero Typewriter
