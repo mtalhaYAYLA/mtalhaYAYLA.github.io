@@ -2855,6 +2855,22 @@ ol {
     color: #111111;
 }
 
+/* Mobile lang button — hidden on desktop, shown on mobile */
+.lang-btn--mobile {
+    display: none;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+@media only screen and (max-width: 992px) {
+    .lang-btn--mobile { display: inline-block; }
+}
+@media only screen and (max-width: 767px) {
+    .lang-btn--mobile { right: 55px; }
+}
+
 /*---------------------
   Hero Typewriter
 -----------------------*/

@@ -524,9 +524,12 @@ function applyLang(lang) {
     }
   });
 
-  /* Update lang toggle button label */
+  /* Update lang toggle button labels (desktop + mobile) */
+  const label = lang === 'en' ? 'TR' : 'EN';
   const btn = document.getElementById('lang-toggle');
-  if (btn) btn.textContent = lang === 'en' ? 'TR' : 'EN';
+  if (btn) btn.textContent = label;
+  const btnMobile = document.getElementById('lang-toggle-mobile');
+  if (btnMobile) btnMobile.textContent = label;
 
   /* Save preference */
   localStorage.setItem('lang', lang);
