@@ -2779,11 +2779,14 @@ ol {
 }
 
 .header__logo__img {
-    width: 46px;
-    height: 46px;
+    width: 54px;
+    height: 54px;
     object-fit: contain;
     flex-shrink: 0;
-    filter: brightness(1.1);
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
 }
 
 .header__logo__text {
@@ -2794,8 +2797,9 @@ ol {
 
 @media only screen and (max-width: 991px) {
     .header__logo__img {
-        width: 38px;
-        height: 38px;
+        width: 46px;
+        height: 46px;
+        padding: 6px;
     }
     .header__logo a {
         gap: 9px;
@@ -2804,7 +2808,8 @@ ol {
 
 @media only screen and (max-width: 479px) {
     .header__logo__img {
-        width: 32px;
-        height: 32px;
+        width: 38px;
+        height: 38px;
+        padding: 5px;
     }
 }
