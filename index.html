@@ -51,15 +51,16 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">About</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li class="active"><a href="./index.html" data-i18n="nav.home">Home</a></li>
+                                <li><a href="./about.html" data-i18n="nav.about">About</a></li>
+                                <li><a href="./contact.html" data-i18n="nav.contact">Contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
                             <a href="mailto:talha.muhammed.yayla@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
                             <a href="https://www.linkedin.com/in/muhammed-talha-yayla/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
                             <a href="https://github.com/mtalhaYAYLA" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                            <button id="lang-toggle" onclick="toggleLang()" class="lang-btn">TR</button>
                         </div>
                     </div>
                 </div>
@@ -77,11 +78,11 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="hero__text">
-                                <span>AI & Computer Engineer · AISOFT · 42 School</span>
-                                <h2>Muhammed Talha Yayla</h2>
+                                <span data-i18n="hero.slide1.span">AI & Computer Engineer · AISOFT · 42 School</span>
+                                <h2 data-i18n="hero.slide1.h2">Muhammed Talha Yayla</h2>
                                 <div class="hero__btns">
-                                    <a href="./contact.html" class="primary-btn">Get in touch</a>
-                                    <a href="files/Muhammed_Talha_Yayla_Cv.pdf" download class="primary-btn hero__cv-btn">Download CV</a>
+                                    <a href="./contact.html" class="primary-btn" data-i18n="hero.slide1.btn1">Get in touch</a>
+                                    <a href="files/Muhammed_Talha_Yayla_Cv.pdf" download class="primary-btn hero__cv-btn" data-i18n="hero.slide1.btn2">Download CV</a>
                                 </div>
                             </div>
                         </div>
@@ -93,10 +94,10 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="hero__text">
-                                <span>Computer Vision · Deep Learning · Industrial AI</span>
-                                <h2>Building AI systems that solve real industrial problems</h2>
+                                <span data-i18n="hero.slide2.span">Computer Vision · Deep Learning · Industrial AI</span>
+                                <h2 data-i18n="hero.slide2.h2">Building AI systems that solve real industrial problems</h2>
                                 <div class="hero__btns">
-                                    <a href="https://github.com/mtalhaYAYLA" target="_blank" class="primary-btn">View GitHub</a>
+                                    <a href="https://github.com/mtalhaYAYLA" target="_blank" class="primary-btn" data-i18n="hero.slide2.btn1">View GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -114,11 +115,11 @@
                 <div class="col-lg-4">
                     <div class="services__title">
                         <div class="section-title">
-                            <span>What I work with</span>
-                            <h2>Tech Stack</h2>
+                            <span data-i18n="tech.label">What I work with</span>
+                            <h2 data-i18n="tech.title">Tech Stack</h2>
                         </div>
-                        <p>I build AI-powered systems and industrial software — from computer vision models for defect detection to embedded IoT solutions and low-level systems programming in C/C++.</p>
-                        <a href="./contact.html" class="primary-btn">Let's work together</a>
+                        <p data-i18n="tech.desc">I build AI-powered systems and industrial software — from computer vision models for defect detection to embedded IoT solutions and low-level systems programming in C/C++.</p>
+                        <a href="./contact.html" class="primary-btn" data-i18n="tech.cta">Let's work together</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -128,8 +129,8 @@
                                 <div class="services__item__icon">
                                     <i class="fa fa-eye" style="font-size:32px; color:#00bfe7; line-height:70px;"></i>
                                 </div>
-                                <h4>AI & Computer Vision</h4>
-                                <p>TensorFlow, PyTorch, Hugging Face, deep learning for defect detection, anomaly detection, and industrial quality control. TÜBİTAK-level R&D experience.</p>
+                                <h4 data-i18n="tech.cv.title">AI & Computer Vision</h4>
+                                <p data-i18n="tech.cv.desc">TensorFlow, PyTorch, Hugging Face, deep learning for defect detection, anomaly detection, and industrial quality control. TÜBİTAK-level R&D experience.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -137,8 +138,8 @@
                                 <div class="services__item__icon">
                                     <i class="fa fa-code" style="font-size:32px; color:#00bfe7; line-height:70px;"></i>
                                 </div>
-                                <h4>Systems Programming</h4>
-                                <p>C (Senior), C++, Python — memory management, Unix system calls, algorithms, and data structures built from scratch through 42 School's rigorous curriculum.</p>
+                                <h4 data-i18n="tech.sys.title">Systems Programming</h4>
+                                <p data-i18n="tech.sys.desc">C (Senior), C++, Python — memory management, Unix system calls, algorithms, and data structures built from scratch through 42 School's rigorous curriculum.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -146,8 +147,8 @@
                                 <div class="services__item__icon">
                                     <i class="fa fa-server" style="font-size:32px; color:#00bfe7; line-height:70px;"></i>
                                 </div>
-                                <h4>Data & Infrastructure</h4>
-                                <p>Docker, Apache Spark, Apache NiFi, PostgreSQL, Linux. Designed modular containerized infrastructures for deployment, monitoring, and automated alerting.</p>
+                                <h4 data-i18n="tech.data.title">Data & Infrastructure</h4>
+                                <p data-i18n="tech.data.desc">Docker, Apache Spark, Apache NiFi, PostgreSQL, Linux. Designed modular containerized infrastructures for deployment, monitoring, and automated alerting.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -155,8 +156,8 @@
                                 <div class="services__item__icon">
                                     <i class="fa fa-microchip" style="font-size:32px; color:#00bfe7; line-height:70px;"></i>
                                 </div>
-                                <h4>IoT & Embedded Systems</h4>
-                                <p>Raspberry Pi, ESP32, real-time sensor integration, home automation, and custom firmware. Building end-to-end IoT solutions from hardware to cloud.</p>
+                                <h4 data-i18n="tech.iot.title">IoT & Embedded Systems</h4>
+                                <p data-i18n="tech.iot.desc">Raspberry Pi, ESP32, real-time sensor integration, home automation, and custom firmware. Building end-to-end IoT solutions from hardware to cloud.</p>
                             </div>
                         </div>
                     </div>
@@ -172,8 +173,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title center-title">
-                        <span>Where I've been</span>
-                        <h2>Experience & Education</h2>
+                        <span data-i18n="exp.label">Where I've been</span>
+                        <h2 data-i18n="exp.title">Experience & Education</h2>
                     </div>
                 </div>
             </div>
@@ -186,13 +187,13 @@
                             <div class="timeline__dot"></div>
                             <div class="timeline__content">
                                 <div class="timeline__header">
-                                    <h4>AI & Computer Engineer</h4>
+                                    <h4 data-i18n="exp.job1.title">AI & Computer Engineer</h4>
                                     <span class="timeline__company">
-                                        <a href="https://aisofttechnology.com" target="_blank" style="color:#00bfe7; text-decoration:none;">AISOFT</a>
+                                        <a href="https://aisofttechnology.com" target="_blank" style="color:#00bfe7; text-decoration:none;" data-i18n="exp.job1.company">AISOFT</a>
                                     </span>
-                                    <span class="timeline__date">May 2025 — Present · Bursa, Turkey</span>
+                                    <span class="timeline__date" data-i18n="exp.job1.date">May 2025 — Present · Bursa, Turkey</span>
                                 </div>
-                                <p>Sole engineer behind multiple production-grade industrial AI systems: <strong style="color:#fff;">Thermal Fire Prevention System</strong> (Eren Enerji coal fleets — thermal camera scanning of large outdoor areas, detects fire anomalies up to 8 hours in advance); <strong style="color:#fff;">AISOFT CCR</strong> (ECE R-43 glass fragmentation analysis adopted by Uğurlu Oto Cam and Sercan Cam Sanayisi — live in production for 1.5+ years); company-wide <strong style="color:#fff;">Monitoring & Container Infrastructure</strong> (Docker-based, used across all AISOFT products); <strong style="color:#fff;">TÜBİTAK 1711</strong> micro-level defect segmentation for TOFAS A.Ş.</p>
+                                <p data-i18n="exp.job1.desc">Sole engineer behind multiple production-grade industrial AI systems: <strong style="color:#fff;">Thermal Fire Prevention System</strong> (Eren Enerji coal fleets — thermal camera scanning of large outdoor areas, detects fire anomalies up to 8 hours in advance); <strong style="color:#fff;">AISOFT CCR</strong> (ECE R-43 glass fragmentation analysis adopted by Uğurlu Oto Cam and Sercan Cam Sanayisi — live in production for 1.5+ years); company-wide <strong style="color:#fff;">Monitoring & Container Infrastructure</strong> (Docker-based, used across all AISOFT products); <strong style="color:#fff;">TÜBİTAK 1711</strong> micro-level defect segmentation for TOFAS A.Ş.</p>
                                 <div class="timeline__tags">
                                     <span>Computer Vision</span>
                                     <span>Thermal Imaging</span>
@@ -209,13 +210,13 @@
                             <div class="timeline__dot"></div>
                             <div class="timeline__content">
                                 <div class="timeline__header">
-                                    <h4>AI & Data Scientist (Intern)</h4>
+                                    <h4 data-i18n="exp.job2.title">AI & Data Scientist (Intern)</h4>
                                     <span class="timeline__company">
-                                        <a href="https://aisofttechnology.com" target="_blank" style="color:#00bfe7; text-decoration:none;">AISOFT</a>
+                                        <a href="https://aisofttechnology.com" target="_blank" style="color:#00bfe7; text-decoration:none;" data-i18n="exp.job2.company">AISOFT</a>
                                     </span>
-                                    <span class="timeline__date">Jan — May 2025 · Bursa, Turkey</span>
+                                    <span class="timeline__date" data-i18n="exp.job2.date">Jan — May 2025 · Bursa, Turkey</span>
                                 </div>
-                                <p>During the internship, independently rescued and completed the CCR glass fragmentation project that the company had struggled with for 1.5 years — delivering a fully working system that has since been adopted by multiple glass manufacturers. Built ML pipelines for object segmentation and anomaly detection.</p>
+                                <p data-i18n="exp.job2.desc">During the internship, independently rescued and completed the CCR glass fragmentation project that the company had struggled with for 1.5 years — delivering a fully working system that has since been adopted by multiple glass manufacturers. Built ML pipelines for object segmentation and anomaly detection.</p>
                                 <div class="timeline__tags">
                                     <span>Machine Learning</span>
                                     <span>Python</span>
@@ -230,11 +231,11 @@
                             <div class="timeline__dot"></div>
                             <div class="timeline__content">
                                 <div class="timeline__header">
-                                    <h4>Google Artificial Intelligence & Technology Academy</h4>
-                                    <span class="timeline__company">Google</span>
-                                    <span class="timeline__date">2023 — 2024</span>
+                                    <h4 data-i18n="exp.job3.title">Google Artificial Intelligence & Technology Academy</h4>
+                                    <span class="timeline__company" data-i18n="exp.job3.company">Google</span>
+                                    <span class="timeline__date" data-i18n="exp.job3.date">2023 — 2024</span>
                                 </div>
-                                <p>Specialized in Generative AI — Vertex AI Studio, Transformer architectures, BERT. Hands-on experience in text generation and captioning. Completed Google Project Management Certification alongside.</p>
+                                <p data-i18n="exp.job3.desc">Specialized in Generative AI — Vertex AI Studio, Transformer architectures, BERT. Hands-on experience in text generation and captioning. Completed Google Project Management Certification alongside.</p>
                                 <div class="timeline__tags">
                                     <span>Generative AI</span>
                                     <span>Vertex AI</span>
@@ -249,11 +250,11 @@
                             <div class="timeline__dot"></div>
                             <div class="timeline__content">
                                 <div class="timeline__header">
-                                    <h4>Software Engineering</h4>
-                                    <span class="timeline__company">42 School (École 42)</span>
-                                    <span class="timeline__date">2022 — 2025</span>
+                                    <h4 data-i18n="exp.job4.title">Software Engineering</h4>
+                                    <span class="timeline__company" data-i18n="exp.job4.company">42 School (École 42)</span>
+                                    <span class="timeline__date" data-i18n="exp.job4.date">2022 — 2025</span>
                                 </div>
-                                <p>Completed the full 42 core curriculum through peer-to-peer learning — no teachers, no lectures, only projects. Built everything from scratch in C and C++: Libft, ft_printf, MiniShell, Philosophers, Cub3D, Inception, and C++ Modules.</p>
+                                <p data-i18n="exp.job4.desc">Completed the full 42 core curriculum through peer-to-peer learning — no teachers, no lectures, only projects. Built everything from scratch in C and C++: Libft, ft_printf, MiniShell, Philosophers, Cub3D, Inception, and C++ Modules.</p>
                                 <div class="timeline__tags">
                                     <span>C / C++</span>
                                     <span>Unix</span>
@@ -268,11 +269,11 @@
                             <div class="timeline__dot"></div>
                             <div class="timeline__content">
                                 <div class="timeline__header">
-                                    <h4>Computer Programming</h4>
-                                    <span class="timeline__company">Istanbul University</span>
-                                    <span class="timeline__date">2022 — 2025 (Graduated July 2025)</span>
+                                    <h4 data-i18n="exp.job5.title">Computer Programming</h4>
+                                    <span class="timeline__company" data-i18n="exp.job5.company">Istanbul University</span>
+                                    <span class="timeline__date" data-i18n="exp.job5.date">2022 — 2025 (Graduated July 2025)</span>
                                 </div>
-                                <p>Associate degree in Computer Programming. Foundational education in software development, algorithms, and computer science concepts.</p>
+                                <p data-i18n="exp.job5.desc">Associate degree in Computer Programming. Foundational education in software development, algorithms, and computer science concepts.</p>
                                 <div class="timeline__tags">
                                     <span>Computer Science</span>
                                     <span>Software Development</span>
@@ -399,8 +400,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title center-title">
-                        <span>Open source activity</span>
-                        <h2>GitHub Stats</h2>
+                        <span data-i18n="github.label">Open source activity</span>
+                        <h2 data-i18n="github.title">GitHub Stats</h2>
                     </div>
                 </div>
             </div>
@@ -429,7 +430,7 @@
             <div class="row justify-content-center" style="margin-top: 30px;">
                 <div class="col-lg-4 text-center">
                     <a href="https://github.com/mtalhaYAYLA" target="_blank" class="primary-btn">
-                        <i class="fa fa-github"></i> View GitHub Profile
+                        <i class="fa fa-github"></i> <span data-i18n="github.btn">View GitHub Profile</span>
                     </a>
                 </div>
             </div>
@@ -443,9 +444,9 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="callto__text">
-                        <h2>Open to new opportunities and freelance AI projects.</h2>
-                        <p>AI & Computer Engineer · Bursa, Turkey · Available for remote work</p>
-                        <a href="./contact.html" class="primary-btn">Get in touch</a>
+                        <h2 data-i18n="cta.title">Open to new opportunities and freelance AI projects.</h2>
+                        <p data-i18n="cta.sub">AI & Computer Engineer · Bursa, Turkey · Available for remote work</p>
+                        <a href="./contact.html" class="primary-btn" data-i18n="cta.btn">Get in touch</a>
                     </div>
                 </div>
                 <div class="col-lg-4 text-right callto__social-col">
@@ -495,13 +496,13 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>About</h5>
-                            <p>AI & Computer Engineer at AISOFT, 42 School alumni, and Istanbul University graduate. Building computer vision systems, industrial AI solutions, and IoT automation from Turkey.</p>
+                            <h5 data-i18n="footer.about.title">About</h5>
+                            <p data-i18n="footer.about.desc">AI & Computer Engineer at AISOFT, 42 School alumni, and Istanbul University graduate. Building computer vision systems, industrial AI solutions, and IoT automation from Turkey.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Navigation</h5>
+                            <h5 data-i18n="footer.nav.title">Navigation</h5>
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
                                 <li><a href="./about.html">About</a></li>
@@ -512,11 +513,11 @@
                     </div>
                     <div class="col-lg-4 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Contact</h5>
+                            <h5 data-i18n="footer.contact.title">Contact</h5>
                             <ul>
                                 <li><a href="mailto:talha.muhammed.yayla@gmail.com">talha.muhammed.yayla@gmail.com</a></li>
                                 <li><a href="https://www.linkedin.com/in/muhammed-talha-yayla/" target="_blank">LinkedIn</a></li>
-                                <li><a href="files/Muhammed_Talha_Yayla_Cv.pdf" download>Download CV</a></li>
+                                <li><a href="files/Muhammed_Talha_Yayla_Cv.pdf" download data-i18n="footer.contact.cv">Download CV</a></li>
                             </ul>
                         </div>
                     </div>
@@ -544,6 +545,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
 </body>
 
 </html>

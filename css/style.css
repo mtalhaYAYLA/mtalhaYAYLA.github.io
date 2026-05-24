@@ -2831,3 +2831,26 @@ ol {
         border-radius: 7px;
     }
 }
+
+/* =============================================
+   Language Toggle Button
+   ============================================= */
+.lang-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.lang-btn:hover {
+    background: #ffffff;
+    color: #111111;
+}
