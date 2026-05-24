@@ -64,6 +64,17 @@ const translations = {
     "exp.job5.date":    "2022 — 2025 (Graduated July 2025)",
     "exp.job5.desc":    "Associate degree in Computer Programming. Foundational education in software development, algorithms, and computer science concepts.",
 
+    /* --- Clients & Partners --- */
+    "clients.label":   "Real-world impact",
+    "clients.title":   "Companies & Institutions",
+    "clients.aisoft":  "Current Employer",
+    "clients.tubitak": "R&D Funding",
+    "clients.eren":    "Client",
+    "clients.tofas":   "Client",
+    "clients.school42":"Education",
+    "clients.google":  "AI Academy",
+    "clients.iu":      "Education",
+
     /* --- Portfolio --- */
     "port.item1.title": "AISOFT CCR",
     "port.item2.title": "Thermal Fire Prevention",
@@ -303,6 +314,17 @@ const translations = {
     "exp.job5.company": "İstanbul Üniversitesi",
     "exp.job5.date":    "2022 — 2025 (Temmuz 2025'te Mezun)",
     "exp.job5.desc":    "Bilgisayar Programcılığı ön lisans derecesi. Yazılım geliştirme, algoritmalar ve bilgisayar bilimi kavramlarında temel eğitim.",
+
+    /* --- Müşteriler & Kurumlar --- */
+    "clients.label":   "Gerçek dünya etkisi",
+    "clients.title":   "Şirketler & Kurumlar",
+    "clients.aisoft":  "Mevcut İşveren",
+    "clients.tubitak": "Ar-Ge Desteği",
+    "clients.eren":    "Müşteri",
+    "clients.tofas":   "Müşteri",
+    "clients.school42":"Eğitim",
+    "clients.google":  "YZ Akademisi",
+    "clients.iu":      "Eğitim",
 
     /* --- Portföy --- */
     "port.item1.title": "AISOFT CCR",
