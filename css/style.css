@@ -509,14 +509,6 @@ ol {
   padding-top: 200px;
 }
 
-/* Static hero (no carousel) — make text visible immediately */
-.hero .hero__item .hero__text span,
-.hero .hero__item .hero__text h2,
-.hero .hero__item .hero__text p,
-.hero .hero__item .hero__text .primary-btn {
-  top: 0;
-  opacity: 1;
-}
 
 .hero__text span {
   color: #ffffff;
