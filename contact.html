@@ -102,7 +102,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h4 data-i18n="contact.widget.loc">Location</h4>
-                            <p>AISOFT — Bursa, Turkey</p>
+                            <p data-i18n="contact.widget.loc.val">AISOFT — Bursa, Turkey</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                             </a>
                             <a href="https://www.linkedin.com/in/muhammed-talha-yayla/" target="_blank" class="contact__info__link">
                                 <i class="fa fa-linkedin"></i>
-                                <span>LinkedIn Profile</span>
+                                <span data-i18n="contact.panel.linkedin">LinkedIn Profile</span>
                             </a>
                             <a href="files/Muhammed_Talha_Yayla_Cv.pdf" download class="contact__info__link">
                                 <i class="fa fa-download"></i>
@@ -247,7 +247,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <p class="footer__copyright__text">
-                            Copyright &copy; <span id="year"></span> Muhammed Talha Yayla. All rights reserved.
+                            Copyright &copy; <span id="year"></span> Muhammed Talha Yayla. <span data-i18n="footer.copyright">All rights reserved.</span>
                         </p>
                     </div>
                 </div>
@@ -296,8 +296,9 @@
             var error   = document.getElementById('form-error');
 
             // Disable button while sending
+            var currentLang = localStorage.getItem('lang') || 'en';
             btn.disabled = true;
-            btnText.textContent = 'Sending...';
+            btnText.textContent = currentLang === 'tr' ? 'Gönderiliyor...' : 'Sending...';
             spinner.style.display = 'inline-block';
             success.style.display = 'none';
             error.style.display   = 'none';
@@ -322,7 +323,8 @@
                 })
                 .finally(function () {
                     btn.disabled = false;
-                    btnText.textContent = 'Send Message';
+                    var lang = localStorage.getItem('lang') || 'en';
+                    btnText.textContent = lang === 'tr' ? 'Mesaj Gönder' : 'Send Message';
                     spinner.style.display = 'none';
                 });
         });
