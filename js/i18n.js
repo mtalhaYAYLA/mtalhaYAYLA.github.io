@@ -82,6 +82,8 @@ const translations = {
     "port.item4.title": "MiniShell",
     "port.item5.title": "Home Automation",
     "port.item6.title": "TÜBİTAK 1711",
+    "port.item7.title": "AISOFT Quality",
+    "port.item8.title": "Water Bottle Inspection",
 
     /* --- Project Modals --- */
     "modal.visit":   "Visit AISOFT",
@@ -167,6 +169,29 @@ const translations = {
     "modal.iot.i3.val":   "VPN",
     "modal.iot.i3.lbl":   "Remote",
     "modal.iot.img":      "Raspberry Pi and ESP32 setup with connected sensors and automation modules",
+
+    "modal.quality.label":    "Computer Vision · Industrial QC",
+    "modal.quality.title":    "AISOFT Quality",
+    "modal.quality.subtitle": "Industrial Visual Quality Control System",
+    "modal.quality.desc":     "AI-powered visual quality control system developed for industrial production lines. Detects surface defects, dimensional deviations, and product anomalies in real time using industrial cameras and custom lighting setups — replacing manual inspection with automated, consistent analysis.",
+    "modal.quality.i1.val":   "Real-time",
+    "modal.quality.i1.lbl":   "Detection",
+    "modal.quality.i2.val":   "AISOFT",
+    "modal.quality.i2.lbl":   "Platform",
+    "modal.quality.i3.val":   "100%",
+    "modal.quality.i3.lbl":   "Automated",
+
+    "modal.su.label":    "Computer Vision · Food & Beverage",
+    "modal.su.title":    "Water Bottle Inspection",
+    "modal.su.subtitle": "PET Bottle Cap & Water Level Quality Control",
+    "modal.su.desc":     "End-to-end automated quality control system for PET bottle production lines. Detects cap defects and verifies correct water fill levels in real time. I designed and built the full system — from custom lighting and camera positioning to electrical wiring, hardware integration, and software. Sold to and actively running at two water factories in Turkey.",
+    "modal.su.i1.val":   "2",
+    "modal.su.i1.lbl":   "Active Clients",
+    "modal.su.i2.val":   "Full",
+    "modal.su.i2.lbl":   "Hardware + SW",
+    "modal.su.i3.val":   "Real-time",
+    "modal.su.i3.lbl":   "Inspection",
+    "modal.su.client":   "Gümüş Su (Bursa) · Asya Su (Düzce)",
 
     /* --- GitHub Stats --- */
     "github.label": "Open source activity",
@@ -333,6 +358,8 @@ const translations = {
     "port.item4.title": "MiniShell",
     "port.item5.title": "Ev Otomasyonu",
     "port.item6.title": "TÜBİTAK 1711",
+    "port.item7.title": "AISOFT Quality",
+    "port.item8.title": "Su Şişesi Kontrol",
 
     /* --- Proje Modalleri --- */
     "modal.visit":   "AISOFT'u Ziyaret Et",
@@ -418,6 +445,29 @@ const translations = {
     "modal.iot.i3.val":   "VPN",
     "modal.iot.i3.lbl":   "Uzaktan",
     "modal.iot.img":      "Bağlı sensörler ve otomasyon modülleriyle Raspberry Pi & ESP32 kurulumu",
+
+    "modal.quality.label":    "Bilgisayarlı Görü · Endüstriyel KK",
+    "modal.quality.title":    "AISOFT Quality",
+    "modal.quality.subtitle": "Endüstriyel Görsel Kalite Kontrol Sistemi",
+    "modal.quality.desc":     "Endüstriyel üretim hatları için geliştirilen yapay zeka destekli görsel kalite kontrol sistemi. Endüstriyel kameralar ve özel aydınlatma kurulumları kullanarak yüzey kusurlarını, boyutsal sapmaları ve ürün anomalilerini gerçek zamanlı olarak tespit eder — manuel denetimin yerini otomatik, tutarlı analizle alır.",
+    "modal.quality.i1.val":   "Gerçek Zamanlı",
+    "modal.quality.i1.lbl":   "Tespit",
+    "modal.quality.i2.val":   "AISOFT",
+    "modal.quality.i2.lbl":   "Platform",
+    "modal.quality.i3.val":   "%100",
+    "modal.quality.i3.lbl":   "Otomatik",
+
+    "modal.su.label":    "Bilgisayarlı Görü · Gıda & İçecek",
+    "modal.su.title":    "Su Şişesi Kontrol Sistemi",
+    "modal.su.subtitle": "PET Şişe Kapak & Su Seviyesi Kalite Kontrolü",
+    "modal.su.desc":     "PET şişe üretim hatları için uçtan uca otomatik kalite kontrol sistemi. Kapak hatalarını tespit eder ve doğru su dolum seviyelerini gerçek zamanlı olarak doğrular. Sistemi baştan sona ben tasarlayıp kurdum — özel aydınlatma ve kamera konumlandırmasından elektrik tesisatı, donanım entegrasyonu ve yazılıma kadar her şey. İki su fabrikasına satıldı ve aktif olarak çalışıyor.",
+    "modal.su.i1.val":   "2",
+    "modal.su.i1.lbl":   "Aktif Müşteri",
+    "modal.su.i2.val":   "Tam",
+    "modal.su.i2.lbl":   "Donanım + Yazılım",
+    "modal.su.i3.val":   "Gerçek Zamanlı",
+    "modal.su.i3.lbl":   "Denetim",
+    "modal.su.client":   "Gümüş Su (Bursa) · Asya Su (Düzce)",
 
     /* --- GitHub İstatistikleri --- */
     "github.label": "Açık kaynak aktivitesi",
