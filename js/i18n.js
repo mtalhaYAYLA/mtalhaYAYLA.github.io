@@ -527,6 +527,8 @@ function applyLang(lang) {
   /* Update lang toggle button label */
   const btn = document.getElementById('lang-toggle');
   if (btn) btn.textContent = lang === 'en' ? 'TR' : 'EN';
+  const mobileBtn = document.getElementById('mobile-lang-toggle');
+  if (mobileBtn) mobileBtn.textContent = lang === 'en' ? 'TR' : 'EN';
 
   /* Save preference */
   localStorage.setItem('lang', lang);
