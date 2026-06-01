@@ -2151,6 +2151,21 @@ ol {
     top: 26px;
     padding: 0;
   }
+  .header__nav__menu {
+    display: none !important;
+  }
+  .header__nav__social {
+    padding-left: 0;
+  }
+  .header__nav__social::before {
+    display: none;
+  }
+  .header__nav__social a {
+    display: none;
+  }
+  .lang-btn {
+    margin-left: 0;
+  }
 
   .hero__text h2 {
     font-size: 40px;
