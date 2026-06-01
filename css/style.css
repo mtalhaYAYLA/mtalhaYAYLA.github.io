@@ -3224,35 +3224,32 @@ ol {
     .project-modal__impact { gap: 12px; }
 }
 
-/* ---- Mobile nav extras (social + lang) inside slicknav ---- */
-/* Hide in desktop nav */
-.header__nav__menu .nav__mobile-extras {
-    display: none;
-}
-/* Show in slicknav cloned nav */
-.slicknav_nav .nav__mobile-extras {
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    margin-top: 4px;
-    padding: 10px 0 6px;
-}
-.slicknav_nav .nav__mobile-extras__inner {
+/* ---- Slicknav mobile menu extras (social + lang) ---- */
+.slicknav-extras {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 12px 10px 8px;
+    margin-top: 6px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    list-style: none;
 }
-.slicknav_nav .nav__mobile-extras__social a {
+.slicknav-extras__social a {
     color: #ffffff;
     font-size: 17px;
-    margin-right: 16px;
+    margin-right: 18px;
     display: inline-block;
     opacity: 0.85;
+    transition: opacity 0.2s;
 }
-.slicknav_nav .nav__mobile-extras__social a:last-child {
+.slicknav-extras__social a:hover {
+    opacity: 1;
+}
+.slicknav-extras__social a:last-child {
     margin-right: 0;
 }
-.slicknav_nav .nav__mobile-extras .lang-btn {
-    display: inline-block !important;
+.slicknav-extras .lang-btn {
+    display: inline-block;
     padding: 4px 12px;
     border: 1px solid rgba(255,255,255,0.5);
     background: transparent;
@@ -3263,4 +3260,9 @@ ol {
     letter-spacing: 1px;
     cursor: pointer;
     border-radius: 2px;
+    transition: background 0.2s, border-color 0.2s;
+}
+.slicknav-extras .lang-btn:hover {
+    background: rgba(0, 191, 231, 0.25);
+    border-color: #00bfe7;
 }
