@@ -2978,9 +2978,21 @@ ol {
     letter-spacing: 1px;
 }
 
+/* İstanbul Üniversitesi text-based logo */
+.clients__logo-abbr {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 3px;
+    line-height: 38px;
+    display: block;
+}
+
 @media (max-width: 768px) {
     .clients__logos { gap: 28px 36px; }
     .clients__logo-item img { height: 30px; }
+    .clients__logo-abbr { font-size: 24px; line-height: 30px; }
 }
 
 /*---------------------
