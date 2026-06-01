@@ -42,7 +42,7 @@ const translations = {
     "exp.job1.title":   "AI & Computer Engineer",
     "exp.job1.company": "AISOFT",
     "exp.job1.date":    "May 2025 — Present · Bursa, Turkey",
-    "exp.job1.desc":    "Sole engineer behind multiple production-grade industrial AI systems: <strong style='color:#fff;'>Thermal Fire Prevention System</strong> (Eren Enerji coal fleets — thermal camera scanning of large outdoor areas, detects fire anomalies up to 8 hours in advance); <strong style='color:#fff;'>AISOFT CCR</strong> (ECE R-43 glass fragmentation analysis adopted by Uğurlu Oto Cam and Sercan Cam Sanayisi — live in production for 1.5+ years); company-wide <strong style='color:#fff;'>Monitoring & Container Infrastructure</strong> (Docker-based, used across all AISOFT products); <strong style='color:#fff;'>TÜBİTAK 1711</strong> micro-level defect segmentation for TOFAS A.Ş.",
+    "exp.job1.desc":    "Sole engineer behind multiple production-grade industrial AI systems: <strong style='color:#fff;'>Thermal Fire Prevention System</strong> (Eren Enerji coal fleets — thermal camera scanning of large outdoor areas, detects fire anomalies up to 8 hours in advance); <strong style='color:#fff;'>AISOFT CCR</strong> (ECE R-43 glass fragmentation analysis adopted by Uğurlu Oto Cam and Fercam Cam Sanayisi — live in production for 1.5+ years); company-wide <strong style='color:#fff;'>Monitoring & Container Infrastructure</strong> (Docker-based, used across all AISOFT products); <strong style='color:#fff;'>TÜBİTAK 1711</strong> micro-level defect segmentation for TOFAS A.Ş.",
 
     "exp.job2.title":   "AI & Data Scientist (Intern)",
     "exp.job2.company": "AISOFT",
@@ -105,7 +105,7 @@ const translations = {
     "modal.ccr.i3.lbl":   "Active Clients",
     "modal.ccr.i4.val":   "1.5+ yr",
     "modal.ccr.i4.lbl":   "In Production",
-    "modal.ccr.client":   "Uğurlu Oto Cam Sanayisi · Sercan Cam Sanayisi",
+    "modal.ccr.client":   "Uğurlu Oto Cam Sanayisi · Fercam Cam Sanayisi",
     "modal.ccr.img":      "CCR system UI showing glass fragment grid analysis",
 
     "modal.thermal.label":    "Computer Vision · Energy Sector",
@@ -240,7 +240,7 @@ const translations = {
     "about.exp.job1.date":    "May 2025 — Present · Bursa, Turkey",
     "about.exp.job1.desc":    "Sole engineer behind multiple production-grade industrial AI systems:",
     "about.exp.job1.b1":      "<strong>Thermal Fire Prevention System</strong> — Eren Enerji coal fleet monitoring with thermal cameras. Scans large outdoor areas, detects fire-risk anomalies up to 8 hours before ignition. Real-time alerting infrastructure.",
-    "about.exp.job1.b2":      "<strong>AISOFT CCR</strong> — Automated ECE R-43 glass fragmentation analysis (15 min → 1.38 min). In active production at Uğurlu Oto Cam Sanayisi (1.5+ years) and Sercan Cam Sanayisi.",
+    "about.exp.job1.b2":      "<strong>AISOFT CCR</strong> — Automated ECE R-43 glass fragmentation analysis (15 min → 1.38 min). In active production at Uğurlu Oto Cam Sanayisi (1.5+ years) and Fercam Cam Sanayisi.",
     "about.exp.job1.b3":      "<strong>Company-wide Monitoring & Container Infrastructure</strong> — Docker-based modular system used across all AISOFT products. Centralized logging, monitoring, and automated alerting.",
     "about.exp.job1.b4":      "<strong>TÜBİTAK 1711</strong> — Micro-level defect segmentation for TOFAS A.Ş. using deep learning models.",
     "about.exp.job1.b5":      "<strong>Architecture & Coding Standards</strong> — Internal error-handling frameworks, naming conventions, and development guidelines adopted company-wide.",
@@ -318,7 +318,7 @@ const translations = {
     "exp.job1.title":   "Yapay Zeka & Bilgisayar Mühendisi",
     "exp.job1.company": "AISOFT",
     "exp.job1.date":    "Mayıs 2025 — Devam Ediyor · Bursa, Türkiye",
-    "exp.job1.desc":    "Birden fazla üretim kalitesinde endüstriyel yapay zeka sisteminin tek mühendisi: <strong style='color:#fff;'>Termal Yangın Önleme Sistemi</strong> (Eren Enerji kömür filoları — büyük açık alanların termal kamera taraması, yangın anomalilerini 8 saat önceden tespit eder); <strong style='color:#fff;'>AISOFT CCR</strong> (ECE R-43 cam kırılma analizi — Uğurlu Oto Cam ve Sercan Cam Sanayisi tarafından 1,5+ yıldır kullanımda); şirket genelinde <strong style='color:#fff;'>İzleme & Konteyner Altyapısı</strong> (Docker tabanlı, tüm AISOFT ürünlerinde kullanılıyor); <strong style='color:#fff;'>TÜBİTAK 1711</strong> TOFAŞ A.Ş. için mikro seviye hata segmentasyonu.",
+    "exp.job1.desc":    "Birden fazla üretim kalitesinde endüstriyel yapay zeka sisteminin tek mühendisi: <strong style='color:#fff;'>Termal Yangın Önleme Sistemi</strong> (Eren Enerji kömür filoları — büyük açık alanların termal kamera taraması, yangın anomalilerini 8 saat önceden tespit eder); <strong style='color:#fff;'>AISOFT CCR</strong> (ECE R-43 cam kırılma analizi — Uğurlu Oto Cam ve Fercam Cam Sanayisi tarafından 1,5+ yıldır kullanımda); şirket genelinde <strong style='color:#fff;'>İzleme & Konteyner Altyapısı</strong> (Docker tabanlı, tüm AISOFT ürünlerinde kullanılıyor); <strong style='color:#fff;'>TÜBİTAK 1711</strong> TOFAŞ A.Ş. için mikro seviye hata segmentasyonu.",
 
     "exp.job2.title":   "Yapay Zeka & Veri Bilimci (Stajyer)",
     "exp.job2.company": "AISOFT",
@@ -381,7 +381,7 @@ const translations = {
     "modal.ccr.i3.lbl":   "Aktif Müşteri",
     "modal.ccr.i4.val":   "1.5+ yıl",
     "modal.ccr.i4.lbl":   "Üretimde",
-    "modal.ccr.client":   "Uğurlu Oto Cam Sanayisi · Sercan Cam Sanayisi",
+    "modal.ccr.client":   "Uğurlu Oto Cam Sanayisi · Fercam Cam Sanayisi",
     "modal.ccr.img":      "CCR sistem arayüzü — cam parça ızgara analizi",
 
     "modal.thermal.label":    "Bilgisayarlı Görü · Enerji Sektörü",
@@ -516,7 +516,7 @@ const translations = {
     "about.exp.job1.date":    "Mayıs 2025 — Devam Ediyor · Bursa, Türkiye",
     "about.exp.job1.desc":    "Birden fazla üretim kalitesinde endüstriyel yapay zeka sisteminin tek mühendisi:",
     "about.exp.job1.b1":      "<strong>Termal Yangın Önleme Sistemi</strong> — Termal kameralarla Eren Enerji kömür filosu izleme. Büyük açık alanları tarar, ateşlenmeden 8 saat önce yangın riski anomalilerini tespit eder. Gerçek zamanlı uyarı altyapısı.",
-    "about.exp.job1.b2":      "<strong>AISOFT CCR</strong> — Otomatik ECE R-43 cam kırılma analizi (15 dk → 1.38 dk). Uğurlu Oto Cam Sanayisi'nde (1,5+ yıl) ve Sercan Cam Sanayisi'nde aktif üretimde.",
+    "about.exp.job1.b2":      "<strong>AISOFT CCR</strong> — Otomatik ECE R-43 cam kırılma analizi (15 dk → 1.38 dk). Uğurlu Oto Cam Sanayisi'nde (1,5+ yıl) ve Fercam Cam Sanayisi'nde aktif üretimde.",
     "about.exp.job1.b3":      "<strong>Şirket Geneli İzleme & Konteyner Altyapısı</strong> — Tüm AISOFT ürünlerinde kullanılan Docker tabanlı modüler sistem. Merkezi loglama, izleme ve otomatik uyarı.",
     "about.exp.job1.b4":      "<strong>TÜBİTAK 1711</strong> — Derin öğrenme modelleri kullanarak TOFAŞ A.Ş. için mikro seviye hata segmentasyonu.",
     "about.exp.job1.b5":      "<strong>Mimari & Kodlama Standartları</strong> — Şirket genelinde benimsenen dahili hata işleme çerçeveleri, adlandırma kuralları ve geliştirme kılavuzları.",
