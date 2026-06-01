@@ -377,8 +377,7 @@
             <div class="grid-sizer"></div>
 
             <!-- AISOFT CCR -->
-            <!-- TODO: Replace portfolio-1.jpg with a screenshot of the CCR system UI (glass fragment grid analysis view) -->
-            <div class="work__item wide__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/portfolio-1.jpg" data-modal="ccr">
+            <div class="work__item wide__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/ccr2.jpg" data-modal="ccr">
                 <div class="work__item__overlay">
                     <i class="fa fa-search-plus"></i>
                 </div>
@@ -392,8 +391,7 @@
             </div>
 
             <!-- Thermal Fire Prevention -->
-            <!-- TODO: Replace portfolio-2.jpg with thermal camera view of coal stockpile with anomaly overlay -->
-            <div class="work__item small__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/portfolio-2.jpg" data-modal="thermal">
+            <div class="work__item small__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/termal_arayuz_uyari_rgb.jpeg" data-modal="thermal">
                 <div class="work__item__overlay">
                     <i class="fa fa-search-plus"></i>
                 </div>
@@ -422,8 +420,7 @@
             </div>
 
             <!-- Minishell -->
-            <!-- TODO: Replace portfolio-4.jpg with terminal screenshot of MiniShell running -->
-            <div class="work__item large__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/portfolio-4.jpg" data-modal="minishell">
+            <div class="work__item large__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/minishell.png" data-modal="minishell">
                 <div class="work__item__overlay">
                     <i class="fa fa-search-plus"></i>
                 </div>
@@ -452,8 +449,7 @@
             </div>
 
             <!-- TÜBİTAK 1711 — 2dCheck -->
-            <!-- TODO: Replace portfolio-6.jpg with camera-above-conveyor photo or YOLO detection screenshot -->
-            <div class="work__item wide__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/portfolio-6.jpg" data-modal="tubitak">
+            <div class="work__item wide__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/tubitak.jpg" data-modal="tubitak">
                 <div class="work__item__overlay">
                     <i class="fa fa-search-plus"></i>
                 </div>
@@ -462,6 +458,34 @@
                     <ul>
                         <li>20μm Precision · YOLO · Modbus TCP</li>
                         <li>TÜBİTAK R&amp;D · Fercam</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- AISOFT Quality -->
+            <div class="work__item small__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/aisoft-quality.jpg" data-modal="quality">
+                <div class="work__item__overlay">
+                    <i class="fa fa-search-plus"></i>
+                </div>
+                <div class="work__item__hover">
+                    <h4 data-i18n="port.item7.title">AISOFT Quality</h4>
+                    <ul>
+                        <li>Computer Vision · Python</li>
+                        <li>Industrial Quality Control</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Su Hattı Kalite Kontrol -->
+            <div class="work__item small__item set-bg work__item--modal-trigger" data-setbg="img/portfolio/su.avif" data-modal="su">
+                <div class="work__item__overlay">
+                    <i class="fa fa-search-plus"></i>
+                </div>
+                <div class="work__item__hover">
+                    <h4 data-i18n="port.item8.title">Water Bottle Inspection</h4>
+                    <ul>
+                        <li>Gümüş Su · Asya Su</li>
+                        <li>Cap Defect · Level Detection</li>
                     </ul>
                 </div>
             </div>
@@ -475,10 +499,8 @@
     <div class="project-modal-overlay" id="modal-ccr" role="dialog" aria-modal="true">
         <div class="project-modal">
             <button class="project-modal__close" onclick="closeModal('ccr')" aria-label="Close">&times;</button>
-            <!-- TODO: Replace this placeholder div with <img src="img/portfolio/ccr-screenshot.jpg" alt="AISOFT CCR system"> when screenshot is ready -->
-            <div class="project-modal__image project-modal__image--placeholder">
-                <i class="fa fa-eye"></i>
-                <span data-i18n="modal.ccr.img">CCR system UI showing glass fragment grid analysis</span>
+            <div class="project-modal__image">
+                <img src="img/portfolio/ccr2.jpg" alt="AISOFT CCR system running at factory">
             </div>
             <div class="project-modal__body">
                 <p class="project-modal__label" data-i18n="modal.ccr.label">Computer Vision · Production AI</p>
@@ -531,10 +553,8 @@
     <div class="project-modal-overlay" id="modal-thermal" role="dialog" aria-modal="true">
         <div class="project-modal">
             <button class="project-modal__close" onclick="closeModal('thermal')" aria-label="Close">&times;</button>
-            <!-- TODO: Replace with thermal camera feed screenshot showing coal stockpile with anomaly overlay -->
-            <div class="project-modal__image project-modal__image--placeholder">
-                <i class="fa fa-fire"></i>
-                <span data-i18n="modal.thermal.img">Thermal camera feed with anomaly detection overlay on coal stockpile</span>
+            <div class="project-modal__image">
+                <img src="img/portfolio/thermal_toplu.png" alt="Thermal Fire Prevention system - 4 camera grid view">
             </div>
             <div class="project-modal__body">
                 <p class="project-modal__label" data-i18n="modal.thermal.label">Computer Vision · Energy Sector</p>
@@ -567,7 +587,7 @@
                     <span class="project-modal__tag">Docker</span>
                 </div>
                 <div class="project-modal__actions">
-                    <a href="https://aisofttechnology.com" target="_blank" class="project-modal__btn project-modal__btn--primary">
+                    <a href="https://aisofttechnology.com/aisoft-termal/" target="_blank" class="project-modal__btn project-modal__btn--primary">
                         <i class="fa fa-external-link"></i> <span data-i18n="modal.visit">Visit AISOFT</span>
                     </a>
                     <a href="./contact.html" class="project-modal__btn project-modal__btn--outline">
@@ -780,6 +800,100 @@
             </div>
         </div>
     </div>
+    <!-- Modal: AISOFT Quality -->
+    <div class="project-modal-overlay" id="modal-quality" role="dialog" aria-modal="true">
+        <div class="project-modal">
+            <button class="project-modal__close" onclick="closeModal('quality')" aria-label="Close">&times;</button>
+            <div class="project-modal__image">
+                <img src="img/portfolio/aisoft-quality.jpg" alt="AISOFT Quality System">
+            </div>
+            <div class="project-modal__body">
+                <p class="project-modal__label" data-i18n="modal.quality.label">Computer Vision · Industrial QC</p>
+                <h3 class="project-modal__title" data-i18n="modal.quality.title">AISOFT Quality</h3>
+                <p class="project-modal__subtitle" data-i18n="modal.quality.subtitle">Industrial Visual Quality Control System</p>
+                <p class="project-modal__desc" data-i18n="modal.quality.desc">AI-powered visual quality control system developed for industrial production lines. Detects surface defects, dimensional deviations, and product anomalies in real time using industrial cameras and custom lighting setups — replacing manual inspection with automated, consistent analysis.</p>
+                <div class="project-modal__impact">
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.quality.i1.val">Real-time</strong>
+                        <span data-i18n="modal.quality.i1.lbl">Detection</span>
+                    </div>
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.quality.i2.val">AISOFT</strong>
+                        <span data-i18n="modal.quality.i2.lbl">Platform</span>
+                    </div>
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.quality.i3.val">100%</strong>
+                        <span data-i18n="modal.quality.i3.lbl">Automated</span>
+                    </div>
+                </div>
+                <p class="project-modal__section-title" data-i18n="modal.tech">Tech Stack</p>
+                <div class="project-modal__tags">
+                    <span class="project-modal__tag">Python</span>
+                    <span class="project-modal__tag">Computer Vision</span>
+                    <span class="project-modal__tag">Industrial Camera</span>
+                    <span class="project-modal__tag">Custom Lighting</span>
+                    <span class="project-modal__tag">Deep Learning</span>
+                    <span class="project-modal__tag">Docker</span>
+                </div>
+                <div class="project-modal__actions">
+                    <a href="https://aisofttechnology.com/aisoft-quality/" target="_blank" class="project-modal__btn project-modal__btn--primary">
+                        <i class="fa fa-external-link"></i> <span data-i18n="modal.visit">Visit AISOFT</span>
+                    </a>
+                    <a href="./contact.html" class="project-modal__btn project-modal__btn--outline">
+                        <i class="fa fa-envelope"></i> <span data-i18n="modal.contact">Get in Touch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Water Bottle Inspection -->
+    <div class="project-modal-overlay" id="modal-su" role="dialog" aria-modal="true">
+        <div class="project-modal">
+            <button class="project-modal__close" onclick="closeModal('su')" aria-label="Close">&times;</button>
+            <div class="project-modal__image">
+                <img src="img/portfolio/su.avif" alt="Water Bottle Inspection System">
+            </div>
+            <div class="project-modal__body">
+                <p class="project-modal__label" data-i18n="modal.su.label">Computer Vision · Food &amp; Beverage</p>
+                <h3 class="project-modal__title" data-i18n="modal.su.title">Water Bottle Inspection</h3>
+                <p class="project-modal__subtitle" data-i18n="modal.su.subtitle">PET Bottle Cap &amp; Water Level Quality Control</p>
+                <p class="project-modal__desc" data-i18n="modal.su.desc">End-to-end automated quality control system for PET bottle production lines. Detects cap defects and verifies correct water fill levels in real time. I designed and built the full system — from custom lighting and camera positioning to electrical wiring, hardware integration, and software. Sold to and actively running at two water factories in Turkey.</p>
+                <div class="project-modal__impact">
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.su.i1.val">2</strong>
+                        <span data-i18n="modal.su.i1.lbl">Active Clients</span>
+                    </div>
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.su.i2.val">Full</strong>
+                        <span data-i18n="modal.su.i2.lbl">Hardware + SW</span>
+                    </div>
+                    <div class="project-modal__impact-item">
+                        <strong data-i18n="modal.su.i3.val">Real-time</strong>
+                        <span data-i18n="modal.su.i3.lbl">Inspection</span>
+                    </div>
+                </div>
+                <p class="project-modal__section-title" data-i18n="modal.client">Client</p>
+                <p class="project-modal__client"><i class="fa fa-building-o"></i> <span data-i18n="modal.su.client">Gümüş Su (Bursa) · Asya Su (Düzce)</span></p>
+                <p class="project-modal__section-title" data-i18n="modal.tech">Tech Stack</p>
+                <div class="project-modal__tags">
+                    <span class="project-modal__tag">Python</span>
+                    <span class="project-modal__tag">Computer Vision</span>
+                    <span class="project-modal__tag">Industrial Camera</span>
+                    <span class="project-modal__tag">Custom Lighting</span>
+                    <span class="project-modal__tag">Electrical Design</span>
+                    <span class="project-modal__tag">Hardware Integration</span>
+                    <span class="project-modal__tag">Image Processing</span>
+                </div>
+                <div class="project-modal__actions">
+                    <a href="./contact.html" class="project-modal__btn project-modal__btn--outline">
+                        <i class="fa fa-envelope"></i> <span data-i18n="modal.contact">Get in Touch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Project Modals End -->
 
     <!-- GitHub Stats Section Begin -->
