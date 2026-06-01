@@ -3229,6 +3229,7 @@ ol {
 .work__item[data-modal="minishell"] { background-position: left top; }
 .work__item[data-modal="thermal"] { background-position: center top; }
 .work__item[data-modal="infra"] { background-position: left top; }
+.work__item[data-modal="iot"] { background-position: left top; }
 
 /* ---- Slicknav mobile menu extras (social + lang) ---- */
 .slicknav-extras {
