@@ -2978,15 +2978,15 @@ ol {
     letter-spacing: 1px;
 }
 
-/* İstanbul Üniversitesi text-based logo */
-.clients__logo-abbr {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 3px;
-    line-height: 38px;
-    display: block;
+/* İstanbul Üniversitesi — invert dark seal so it reads as white on dark bg */
+.clients__logo-item--iu img {
+    filter: invert(1) brightness(2);
+}
+.clients__logo-item--iu:hover {
+    filter: none;
+}
+.clients__logo-item--iu:hover img {
+    filter: invert(1) brightness(2);
 }
 
 @media (max-width: 768px) {
