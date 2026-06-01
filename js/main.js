@@ -54,22 +54,6 @@
         allowParentLinks: true
     });
 
-    // Inject social links + language toggle at the bottom of the mobile slicknav menu
-    (function() {
-        var lang = localStorage.getItem('lang') || 'en';
-        var btnLabel = lang === 'tr' ? 'EN' : 'TR';
-        $('#mobile-menu-wrap .slicknav_nav').append(
-            '<li class="slicknav-extras">' +
-              '<div class="slicknav-extras__social">' +
-                '<a href="mailto:talha.muhammed.yayla@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>' +
-                '<a href="https://www.linkedin.com/in/muhammed-talha-yayla/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>' +
-                '<a href="https://github.com/mtalhaYAYLA" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>' +
-              '</div>' +
-              '<button id="mobile-lang-toggle" class="lang-btn" onclick="toggleLang()">' + btnLabel + '</button>' +
-            '</li>'
-        );
-    })();
-
     /*------------------
 		Hero Slider
 	--------------------*/
